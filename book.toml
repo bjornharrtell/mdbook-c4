@@ -1,0 +1,8 @@
+[book]
+authors = []
+language = "en"
+src = "src"
+
+[preprocessor.plantuml]
+plantuml-cmd = "java -jar /plantuml.jar -Playout=smetana"
+use-data-uris = true
